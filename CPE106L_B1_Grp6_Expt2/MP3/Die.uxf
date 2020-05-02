@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><diagram program="umlet" version="13.3">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>100</x>
+      <y>60</y>
+      <w>180</w>
+      <h>170</h>
+    </coordinates>
+    <panel_attributes>Die
+--
+-self.value: int
+--
++__init__()
++roll()
++getValue(): int
++__str__(): string</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

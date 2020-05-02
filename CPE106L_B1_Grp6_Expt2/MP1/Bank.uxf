@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><diagram program="umlet" version="13.3">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>40</x>
+      <y>30</y>
+      <w>240</w>
+      <h>220</h>
+    </coordinates>
+    <panel_attributes>SavingsAccount
+--
+-self.name: str
+-self.pin: int
+-self.balance: float
+--
++__init__(name, pin, balance)
++__str__(): str
++getBalance(): float
++getName(): str
++getPin(): int
++deposit(amount): float
++withdraw(amount): None
++computeInterest(): float
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>50</x>
+      <y>270</y>
+      <w>260</w>
+      <h>250</h>
+    </coordinates>
+    <panel_attributes>Bank
+--
+-self._accounts: dict
+-fileName: None
+--
++__init__(fileName)
++__str__(): str
++makeKey(name, pin): str
++add(account)
++remove(name,pin): dict
++get(name,pin): dict
++computeInterest(): float
++getKeys()
++save(fileName)
++createBank(numAccounts): tuple
+testAccount()
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
