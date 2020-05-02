@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>13</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>364</x>
+      <y>52</y>
+      <w>208</w>
+      <h>208</h>
+    </coordinates>
+    <panel_attributes>
+Agreement
+
+--
+RenterNum (FK)
+StartDate
+EndDate
+RentalAmount
+PropertyNum (FK)
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>689</x>
+      <y>377</y>
+      <w>208</w>
+      <h>169</h>
+    </coordinates>
+    <panel_attributes>
+PropertyNum
+
+--
+LocationNum (FK)
+UnitNum
+NumPerSleep
+BaseWeeklyRate
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>689</x>
+      <y>52</y>
+      <w>208</w>
+      <h>273</h>
+    </coordinates>
+    <panel_attributes>
+RenterNum
+
+--
+FirstName
+MIddleInitial
+LastName
+Address
+City
+State
+PostalCode
+TelephoneNum
+EmailAddress (SK)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>559</x>
+      <y>78</y>
+      <w>156</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>lt=()-</panel_attributes>
+    <additional_attributes>10.0;50.0;60.0;50.0;60.0;10.0;100.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>559</x>
+      <y>208</y>
+      <w>156</w>
+      <h>234</h>
+    </coordinates>
+    <panel_attributes>lt=()-</panel_attributes>
+    <additional_attributes>10.0;10.0;60.0;10.0;60.0;160.0;100.0;160.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>364</x>
+      <y>429</y>
+      <w>208</w>
+      <h>195</h>
+    </coordinates>
+    <panel_attributes>
+LocationNum
+
+--
+LocationName
+Address
+City
+State
+PostalCode (SK)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>364</x>
+      <y>676</y>
+      <w>208</w>
+      <h>195</h>
+    </coordinates>
+    <panel_attributes>
+
+--
+CondoID
+SqFt
+Bedrooms
+Baths
+CondoFee
+LocationNum</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>559</x>
+      <y>442</y>
+      <w>156</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>lt=().</panel_attributes>
+    <additional_attributes>10.0;10.0;100.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>559</x>
+      <y>468</y>
+      <w>91</w>
+      <h>403</h>
+    </coordinates>
+    <panel_attributes>lt=().</panel_attributes>
+    <additional_attributes>10.0;10.0;50.0;10.0;50.0;290.0;10.0;290.0</additional_attributes>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>416</x>
+      <y>26</y>
+      <w>130</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>Agreement
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>754</x>
+      <y>26</y>
+      <w>130</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>Renter</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>754</x>
+      <y>351</y>
+      <w>130</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>Property</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>429</x>
+      <y>403</y>
+      <w>130</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>Location</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>416</x>
+      <y>650</y>
+      <w>130</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>CondoUnit</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
